@@ -1,0 +1,150 @@
+UI Design – Water Level Indicator System
+
+1. Mobile App Dashboard
+
+Home Screen Layout
++----------------------------------+
+|      WATER LEVEL INDICATOR       |
++----------------------------------+
+
+ Tank ID: WT-01
+
+ ┌────────────────────────────┐
+ | Current Water Level        |
+ |                            |
+ |          78%               |
+ |                            |
+ └────────────────────────────┘
+
+ ███████████████████░░░░░░░░░
+ Tank Capacity: 1000 L
+ Available Water: 780 L
+
+ Status: HIGH LEVEL
+
+ Pump Status:
+ [ ON ]   [ OFF ]
+
+ Last Updated:
+ 12:45 PM
+
+----------------------------------
+
+ Alerts
+
+ ✓ Tank Operating Normally
+
+----------------------------------
+
+ Navigation
+
+ Home | Analytics | Alerts | Settings
+
+
+2. Tank Visualization Screen
+
+WATER TANK
+
+      ┌─────────┐
+100%  │ ● Full  │
+ 75%  │ ● High  │
+ 50%  │ ● Mid   │
+ 25%  │ ● Low   │
+  0%  │         │
+      └─────────┘
+
+Current Level:
+78%
+
+Remaining Capacity:
+220 Liters
+
+
+3. Analytics Dashboard
+
+Daily Water Usage
+
+Water Usage (Liters)
+
+1000 |        *
+ 800 |      * *
+ 600 |    *   *
+ 400 |  *     *
+ 200 | *
+     +----------------
+      Mon Tue Wed Thu Fri
+
+
+4. Alert Screen
+
+ALERT CENTER
+
+--------------------------------
+
+🔴 Tank Full
+01-Jun-2026 09:15 AM
+
+Pump Automatically Stopped
+
+--------------------------------
+
+🟡 Water Level Low
+31-May-2026 08:10 PM
+
+Pump Activated
+
+--------------------------------
+
+🟢 System Healthy
+30-May-2026 10:00 AM
+
+
+5. Settings Screen
+
+SETTINGS
+
+ Tank Capacity
+ [1000 Liters]
+
+ Low Level Alert
+ [20%]
+
+ Full Level Alert
+ [95%]
+
+ Notification Settings
+
+ ☑ Push Notifications
+ ☑ Email Alerts
+ ☑ SMS Alerts
+
+ Save Settings
+
+
+6. Web Dashboard UI
+
+Header
+------------------------------------------------
+ Smart Water Level Monitoring System
+------------------------------------------------
+
+Main Dashboard
++-------------+-------------+-------------+
+| Water Level | Pump Status | Tank Status |
+|     78%     |     ON      |    HIGH     |
++-------------+-------------+-------------+
+
++-------------------------------------------+
+| Water Level Trend Chart                   |
+|                                           |
+|     Line Graph Visualization              |
+|                                           |
++-------------------------------------------+
+
++-------------------------------------------+
+| Recent Alerts                             |
+| Tank Full                                 |
+| Pump Started                              |
+| Low Water Detected                        |
++-------------------------------------------+
+
